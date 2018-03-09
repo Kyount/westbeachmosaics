@@ -35,9 +35,15 @@ body {
 }
 
 .jumbotron.whimsies {
-	height: 75vmin;
-	background-size: cover;
-	background-image: url("../img/whimsies/whimsieslogobackground.png");
+	width: 100%;
+	background-color: #ffeed2;
+}
+
+.jumbotron.whimsies img {
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .jumbotron p {
@@ -63,7 +69,19 @@ body {
 
 .outsideLink a img {
 	width: 100%;
+	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
+
+.outsideLink h3 {
+	margin-top: 0px;
+	color: #00a896;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* .outsideLink.whimsies h3 {
+	color: #e27500;
+} */
 
 .bio {
 	font-size: 1.2em;
@@ -90,6 +108,6 @@ h1, h2 {
 	color: #e27500;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+@media (max-width: 760px;) {
+
+}
